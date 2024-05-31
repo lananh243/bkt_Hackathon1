@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.form{
+    width: 800px;
+    height: 430px;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 190px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+}
+.input{
+    width: 600px;
+    height: 30px;
+}
+.btn{
+    width: 100px;
+    height: 30px;
+    background-color: dodgerblue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.job{
+    margin-left: 60px;
+    margin-top: 30px;
+    display: flex;
+    gap: 15px;
+    text-align: center;
+}
+.list-group{
+    margin-top: 30px;
+    width: 710px;
+    display: flex;
+    margin-left: 60px;
+    
+}
+.list-group-item {
+    display: flex;
+    align-items: center;
+}
+  
+.list-group-item .icons {
+    margin-left: auto;
+}
+  
+.list-group-item .icons i {
+    margin-right: 15px;
+}
+.complete{
+    display: flex;
+    width: 710px;
+    border: none;
+    color: gray;
+    background-color: rgb(229, 242, 245);
+    margin-left: 60px;
+    margin-top: 35px;
+    border-radius: 5px;
+    padding-left: 20px;
+}
